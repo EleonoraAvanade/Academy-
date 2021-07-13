@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.AcademyWeek1\\Week1.AcademyWeek1.csproj": {}
+    "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.AcademyWeek1.Watcher\\Week1.AcademyWeek1.Watcher.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.AcademyWeek1\\Week1.AcademyWeek1.csproj": {
+    "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.AcademyWeek1.Watcher\\Week1.AcademyWeek1.Watcher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.AcademyWeek1\\Week1.AcademyWeek1.csproj",
-        "projectName": "Week1.AcademyWeek1",
-        "projectPath": "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.AcademyWeek1\\Week1.AcademyWeek1.csproj",
+        "projectUniqueName": "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.AcademyWeek1.Watcher\\Week1.AcademyWeek1.Watcher.csproj",
+        "projectName": "Week1.AcademyWeek1.Watcher",
+        "projectPath": "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.AcademyWeek1.Watcher\\Week1.AcademyWeek1.Watcher.csproj",
         "packagesPath": "C:\\Users\\AntoniaSacchitella\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.AcademyWeek1\\obj\\",
+        "outputPath": "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.AcademyWeek1.Watcher\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AntoniaSacchitella\\AppData\\Roaming\\NuGet\\NuGet.Config",

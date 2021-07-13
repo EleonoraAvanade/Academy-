@@ -1,0 +1,16 @@
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Watcher\bin\Debug\net5.0\Week1.AcademyWeek1.Watcher.exe
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Watcher\bin\Debug\net5.0\Week1.AcademyWeek1.Watcher.deps.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Watcher\bin\Debug\net5.0\Week1.AcademyWeek1.Watcher.runtimeconfig.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Watcher\bin\Debug\net5.0\Week1.AcademyWeek1.Watcher.runtimeconfig.dev.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Watcher\bin\Debug\net5.0\Week1.AcademyWeek1.Watcher.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Watcher\bin\Debug\net5.0\ref\Week1.AcademyWeek1.Watcher.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Watcher\bin\Debug\net5.0\Week1.AcademyWeek1.Watcher.pdb
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Watcher\obj\Debug\net5.0\Week1.AcademyWeek1.Watcher.csproj.AssemblyReference.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Watcher\obj\Debug\net5.0\Week1.AcademyWeek1.Watcher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Watcher\obj\Debug\net5.0\Week1.AcademyWeek1.Watcher.AssemblyInfoInputs.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Watcher\obj\Debug\net5.0\Week1.AcademyWeek1.Watcher.AssemblyInfo.cs
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Watcher\obj\Debug\net5.0\Week1.AcademyWeek1.Watcher.csproj.CoreCompileInputs.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Watcher\obj\Debug\net5.0\Week1.AcademyWeek1.Watcher.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Watcher\obj\Debug\net5.0\ref\Week1.AcademyWeek1.Watcher.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Watcher\obj\Debug\net5.0\Week1.AcademyWeek1.Watcher.pdb
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Watcher\obj\Debug\net5.0\Week1.AcademyWeek1.Watcher.genruntimeconfig.cache
