@@ -14,8 +14,10 @@ namespace Week1.AcademyWeek1.Shapes
                 Y = 5,
                 Radius = 1.0
             };
-            circle.SaveToFile("circle.txt");
+            //circle.SaveToFile("circle.txt");
             circle.LoadFromFile("circle.txt");
+            circle.X = 10;
+            circle.SaveToFile("circle.txt");
             
 
         }

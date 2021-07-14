@@ -1,0 +1,16 @@
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Shapes\bin\Debug\net5.0\Week1.AcademyWeek1.Shapes.exe
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Shapes\bin\Debug\net5.0\Week1.AcademyWeek1.Shapes.deps.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Shapes\bin\Debug\net5.0\Week1.AcademyWeek1.Shapes.runtimeconfig.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Shapes\bin\Debug\net5.0\Week1.AcademyWeek1.Shapes.runtimeconfig.dev.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Shapes\bin\Debug\net5.0\Week1.AcademyWeek1.Shapes.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Shapes\bin\Debug\net5.0\ref\Week1.AcademyWeek1.Shapes.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Shapes\bin\Debug\net5.0\Week1.AcademyWeek1.Shapes.pdb
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Shapes\obj\Debug\net5.0\Week1.AcademyWeek1.Shapes.csproj.AssemblyReference.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Shapes\obj\Debug\net5.0\Week1.AcademyWeek1.Shapes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Shapes\obj\Debug\net5.0\Week1.AcademyWeek1.Shapes.AssemblyInfoInputs.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Shapes\obj\Debug\net5.0\Week1.AcademyWeek1.Shapes.AssemblyInfo.cs
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Shapes\obj\Debug\net5.0\Week1.AcademyWeek1.Shapes.csproj.CoreCompileInputs.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Shapes\obj\Debug\net5.0\Week1.AcademyWeek1.Shapes.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Shapes\obj\Debug\net5.0\ref\Week1.AcademyWeek1.Shapes.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Shapes\obj\Debug\net5.0\Week1.AcademyWeek1.Shapes.pdb
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.AcademyWeek1.Shapes\obj\Debug\net5.0\Week1.AcademyWeek1.Shapes.genruntimeconfig.cache
