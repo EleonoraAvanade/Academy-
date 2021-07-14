@@ -27,9 +27,19 @@ namespace Week1.AcademyWeek1.Shapes.Entities
             Console.WriteLine($"Loading Shape Data from {fileName} ... Not implemented for Base class");
         }
 
+        public virtual async Task LoadFromFileAsync(string fileName)
+        {
+            throw new NotImplementedException();
+        }
+
         public virtual void SaveToFile(string fileName)
         {
             Console.WriteLine($"Saving Shape Data to {fileName} ... Not implemented for Base class");
+        }
+
+        public virtual async Task SaveToFileAsync(string fileName)
+        {
+            throw new NotImplementedException();
         }
     }
 }

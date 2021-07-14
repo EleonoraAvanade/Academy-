@@ -1,0 +1,15 @@
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.FactoryPattern\bin\Debug\net5.0\Week1.FactoryPattern.exe
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.FactoryPattern\bin\Debug\net5.0\Week1.FactoryPattern.deps.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.FactoryPattern\bin\Debug\net5.0\Week1.FactoryPattern.runtimeconfig.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.FactoryPattern\bin\Debug\net5.0\Week1.FactoryPattern.runtimeconfig.dev.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.FactoryPattern\bin\Debug\net5.0\Week1.FactoryPattern.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.FactoryPattern\bin\Debug\net5.0\ref\Week1.FactoryPattern.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.FactoryPattern\bin\Debug\net5.0\Week1.FactoryPattern.pdb
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.FactoryPattern\obj\Debug\net5.0\Week1.FactoryPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.FactoryPattern\obj\Debug\net5.0\Week1.FactoryPattern.AssemblyInfoInputs.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.FactoryPattern\obj\Debug\net5.0\Week1.FactoryPattern.AssemblyInfo.cs
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.FactoryPattern\obj\Debug\net5.0\Week1.FactoryPattern.csproj.CoreCompileInputs.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.FactoryPattern\obj\Debug\net5.0\Week1.FactoryPattern.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.FactoryPattern\obj\Debug\net5.0\ref\Week1.FactoryPattern.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.FactoryPattern\obj\Debug\net5.0\Week1.FactoryPattern.pdb
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.FactoryPattern\obj\Debug\net5.0\Week1.FactoryPattern.genruntimeconfig.cache

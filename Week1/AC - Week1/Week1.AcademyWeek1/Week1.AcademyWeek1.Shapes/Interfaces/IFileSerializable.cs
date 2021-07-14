@@ -11,5 +11,7 @@ namespace Week1.AcademyWeek1.Shapes.Interfaces
         public string Path { get; set; } 
         public void SaveToFile(string fileName);
         public void LoadFromFile(string fileName);
+        public Task SaveToFileAsync(string fileName);
+        public Task LoadFromFileAsync(string fileName);
     }
 }

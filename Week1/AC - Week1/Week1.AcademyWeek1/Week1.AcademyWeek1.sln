@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week1.AcademyWeek1.Shapes",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breakfast", "Breakfast\Breakfast.csproj", "{8480ED7B-763B-4680-A8FD-5D7D0EB7E161}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1.FactoryPattern", "Week1.FactoryPattern\Week1.FactoryPattern.csproj", "{9BE50495-3CDE-4214-9E68-19B6707E8E8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1.ChainPattern", "Week1.ChainPattern\Week1.ChainPattern.csproj", "{C2D96E15-9B99-4842-BB7C-C44965E86D1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{8480ED7B-763B-4680-A8FD-5D7D0EB7E161}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8480ED7B-763B-4680-A8FD-5D7D0EB7E161}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8480ED7B-763B-4680-A8FD-5D7D0EB7E161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BE50495-3CDE-4214-9E68-19B6707E8E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE50495-3CDE-4214-9E68-19B6707E8E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE50495-3CDE-4214-9E68-19B6707E8E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE50495-3CDE-4214-9E68-19B6707E8E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2D96E15-9B99-4842-BB7C-C44965E86D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D96E15-9B99-4842-BB7C-C44965E86D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D96E15-9B99-4842-BB7C-C44965E86D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D96E15-9B99-4842-BB7C-C44965E86D1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

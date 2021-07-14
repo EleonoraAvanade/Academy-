@@ -80,5 +80,80 @@ namespace Week1.AcademyWeek1.Shapes.Entities
             }
         }
 
+
+        public override async Task LoadFromFileAsync(string fileName)
+        {
+            Console.WriteLine($"Loading Circle Data from {fileName} ...");
+
+            try
+            {
+                using StreamReader reader = File.OpenText($"C:\\Temp\\Saves\\{fileName}.sha");
+
+                string date = await reader.ReadLineAsync();
+
+                // @values:My Circle;12;10;4.5
+                // [ "@values", "My Circle;12;10;4.5" ] => "My Circle;12;10;4.5" - Riga 38
+                // [ "My Circle", "12", "10", "4.5" ] - Riga 39
+
+                string instanceData = (await reader.ReadLineAsync()).Split(':')[1];
+                string[] values = instanceData.Split(';');
+
+                // TryParse
+                //try
+                //{
+                //    X = int.Parse(values[1]);
+                //}
+                //catch(Exception)
+                //{
+                //    X = 0;
+                //}
+
+                Name = values[0];
+                int.TryParse(values[1], out int x);
+                X = x;
+                int.TryParse(values[2], out int y);
+                Y = y;
+                double.TryParse(values[3], out double r);
+                Radius = r;
+            }
+            catch (IOException ioEx)
+            {
+                Console.WriteLine($"ERRORE (IO): {ioEx.Message}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"ERRORE: {ex.Message}");
+            }
+        }
+
+        public override async Task SaveToFileAsync(string fileName)
+        {
+            Console.WriteLine($"Saving \"{Name}\" Circle Data to {fileName} ...");
+
+            try
+            {
+                using StreamWriter writer = File.CreateText($"C:\\Temp\\Saves\\{fileName}.sha");
+
+                // @date:2021-02-17 09:19
+                // @values:My Circle;12;10;4.5
+
+                string instanceData = $"@values:{Name};{X};{Y};{Radius}";
+
+                await writer.WriteLineAsync("@date:" + DateTime.Now.ToString("yyyy-MM-dd HH:mm"));
+                await writer.WriteLineAsync(instanceData);
+
+                await writer.FlushAsync();
+                writer.Close();
+            }
+            catch (IOException ioEx)
+            {
+                Console.WriteLine($"ERRORE (IO): {ioEx.Message}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"ERRORE: {ex.Message}");
+            }
+        }
+
     }
 }
