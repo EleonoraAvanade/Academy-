@@ -1,0 +1,16 @@
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.Linq\bin\Debug\net5.0\Week1.Linq.exe
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.Linq\bin\Debug\net5.0\Week1.Linq.deps.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.Linq\bin\Debug\net5.0\Week1.Linq.runtimeconfig.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.Linq\bin\Debug\net5.0\Week1.Linq.runtimeconfig.dev.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.Linq\bin\Debug\net5.0\Week1.Linq.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.Linq\bin\Debug\net5.0\ref\Week1.Linq.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.Linq\bin\Debug\net5.0\Week1.Linq.pdb
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.Linq\obj\Debug\net5.0\Week1.Linq.csproj.AssemblyReference.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.Linq\obj\Debug\net5.0\Week1.Linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.Linq\obj\Debug\net5.0\Week1.Linq.AssemblyInfoInputs.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.Linq\obj\Debug\net5.0\Week1.Linq.AssemblyInfo.cs
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.Linq\obj\Debug\net5.0\Week1.Linq.csproj.CoreCompileInputs.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.Linq\obj\Debug\net5.0\Week1.Linq.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.Linq\obj\Debug\net5.0\ref\Week1.Linq.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.Linq\obj\Debug\net5.0\Week1.Linq.pdb
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.Linq\obj\Debug\net5.0\Week1.Linq.genruntimeconfig.cache

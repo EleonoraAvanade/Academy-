@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week1.EserciziPattern", "We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1.TestDesignPattern", "Week1.TestDesignPattern\Week1.TestDesignPattern.csproj", "{07BA6A2F-807D-4724-BC71-F101F5FA89FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1.Linq", "Week1.Linq\Week1.Linq.csproj", "{C7B300BB-4FE1-4EB2-8E55-486DB3EE1252}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{07BA6A2F-807D-4724-BC71-F101F5FA89FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07BA6A2F-807D-4724-BC71-F101F5FA89FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07BA6A2F-807D-4724-BC71-F101F5FA89FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7B300BB-4FE1-4EB2-8E55-486DB3EE1252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7B300BB-4FE1-4EB2-8E55-486DB3EE1252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7B300BB-4FE1-4EB2-8E55-486DB3EE1252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7B300BB-4FE1-4EB2-8E55-486DB3EE1252}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
