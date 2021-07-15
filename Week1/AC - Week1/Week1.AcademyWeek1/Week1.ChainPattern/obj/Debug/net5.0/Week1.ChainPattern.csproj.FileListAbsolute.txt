@@ -13,3 +13,4 @@ C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\
 C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.ChainPattern\obj\Debug\net5.0\ref\Week1.ChainPattern.dll
 C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.ChainPattern\obj\Debug\net5.0\Week1.ChainPattern.pdb
 C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.ChainPattern\obj\Debug\net5.0\Week1.ChainPattern.genruntimeconfig.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.ChainPattern\obj\Debug\net5.0\Week1.ChainPattern.csproj.AssemblyReference.cache

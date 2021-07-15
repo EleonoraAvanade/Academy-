@@ -13,3 +13,4 @@ C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\
 C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.FactoryPattern\obj\Debug\net5.0\ref\Week1.FactoryPattern.dll
 C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.FactoryPattern\obj\Debug\net5.0\Week1.FactoryPattern.pdb
 C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.FactoryPattern\obj\Debug\net5.0\Week1.FactoryPattern.genruntimeconfig.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.FactoryPattern\obj\Debug\net5.0\Week1.FactoryPattern.csproj.AssemblyReference.cache
