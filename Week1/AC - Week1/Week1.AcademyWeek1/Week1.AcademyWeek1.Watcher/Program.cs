@@ -16,9 +16,9 @@ namespace Week1.AcademyWeek1.Watcher
             //definisco il filtro di controllo sui file .txt
             fsw.Filter = "*.txt";
 
-            fsw.NotifyFilter = NotifyFilters.LastWrite |
-                NotifyFilters.LastAccess | NotifyFilters.FileName 
-                | NotifyFilters.DirectoryName;
+            //fsw.NotifyFilter = NotifyFilters.LastWrite |
+            //    NotifyFilters.LastAccess | NotifyFilters.FileName 
+            //    | NotifyFilters.DirectoryName;
 
             //Abilito le notifiche 
             fsw.EnableRaisingEvents = true;

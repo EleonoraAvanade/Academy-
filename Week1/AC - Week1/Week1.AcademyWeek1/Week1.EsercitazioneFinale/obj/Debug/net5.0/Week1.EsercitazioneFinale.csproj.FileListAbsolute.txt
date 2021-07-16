@@ -1,0 +1,16 @@
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.EsercitazioneFinale\bin\Debug\net5.0\Week1.EsercitazioneFinale.exe
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.EsercitazioneFinale\bin\Debug\net5.0\Week1.EsercitazioneFinale.deps.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.EsercitazioneFinale\bin\Debug\net5.0\Week1.EsercitazioneFinale.runtimeconfig.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.EsercitazioneFinale\bin\Debug\net5.0\Week1.EsercitazioneFinale.runtimeconfig.dev.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.EsercitazioneFinale\bin\Debug\net5.0\Week1.EsercitazioneFinale.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.EsercitazioneFinale\bin\Debug\net5.0\ref\Week1.EsercitazioneFinale.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.EsercitazioneFinale\bin\Debug\net5.0\Week1.EsercitazioneFinale.pdb
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.EsercitazioneFinale\obj\Debug\net5.0\Week1.EsercitazioneFinale.csproj.AssemblyReference.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.EsercitazioneFinale\obj\Debug\net5.0\Week1.EsercitazioneFinale.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.EsercitazioneFinale\obj\Debug\net5.0\Week1.EsercitazioneFinale.AssemblyInfoInputs.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.EsercitazioneFinale\obj\Debug\net5.0\Week1.EsercitazioneFinale.AssemblyInfo.cs
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.EsercitazioneFinale\obj\Debug\net5.0\Week1.EsercitazioneFinale.csproj.CoreCompileInputs.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.EsercitazioneFinale\obj\Debug\net5.0\Week1.EsercitazioneFinale.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.EsercitazioneFinale\obj\Debug\net5.0\ref\Week1.EsercitazioneFinale.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.EsercitazioneFinale\obj\Debug\net5.0\Week1.EsercitazioneFinale.pdb
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\AC - Week1\Week1.AcademyWeek1\Week1.EsercitazioneFinale\obj\Debug\net5.0\Week1.EsercitazioneFinale.genruntimeconfig.cache

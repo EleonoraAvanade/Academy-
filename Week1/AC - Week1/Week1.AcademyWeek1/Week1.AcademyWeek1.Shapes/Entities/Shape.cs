@@ -7,10 +7,13 @@ using Week1.AcademyWeek1.Shapes.Interfaces;
 
 namespace Week1.AcademyWeek1.Shapes.Entities
 {
+    
     public class Shape : IFileSerializable
     {
         public string Name { get; set; }
-        public string Path { get; set; } = @"C:\Users\AntoniaSacchitella\Desktop\Academy\Week1\";
+        public string Path { get; set; } = @"..\\";
+
+        public double ShapeArea { get { return Area(); } }
 
         public virtual double Area()
         {

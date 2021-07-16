@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.EsercitazioneFinale.Test\\Week1.EsercitazioneFinale.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.EsercitazioneFinale.Test\\Week1.EsercitazioneFinale.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.EsercitazioneFinale.Test\\Week1.EsercitazioneFinale.Test.csproj",
+        "projectName": "Week1.EsercitazioneFinale.Test",
+        "projectPath": "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.EsercitazioneFinale.Test\\Week1.EsercitazioneFinale.Test.csproj",
+        "packagesPath": "C:\\Users\\AntoniaSacchitella\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.EsercitazioneFinale.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AntoniaSacchitella\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.EsercitazioneFinale\\Week1.EsercitazioneFinale.csproj": {
+                "projectPath": "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.EsercitazioneFinale\\Week1.EsercitazioneFinale.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.EsercitazioneFinale\\Week1.EsercitazioneFinale.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.EsercitazioneFinale\\Week1.EsercitazioneFinale.csproj",
+        "projectName": "Week1.EsercitazioneFinale",
+        "projectPath": "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.EsercitazioneFinale\\Week1.EsercitazioneFinale.csproj",
+        "packagesPath": "C:\\Users\\AntoniaSacchitella\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week1\\AC - Week1\\Week1.AcademyWeek1\\Week1.EsercitazioneFinale\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AntoniaSacchitella\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
