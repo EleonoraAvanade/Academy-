@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Week2.ComplexNumber/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Week2.ComplexNumber.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Week2.ComplexNumber.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Week2.ComplexNumber/1.0.0": {
+      "type": "project",
+      "path": "../Week2.ComplexNumber/Week2.ComplexNumber.csproj",
+      "msbuildProject": "../Week2.ComplexNumber/Week2.ComplexNumber.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Week2.ComplexNumber >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\AntoniaSacchitella\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\AntoniaSacchitella\\source\\repos\\Week2.Demo\\Week2.EsercitazioneComplex\\Week2.EsercitazioneComplex.csproj",
+      "projectName": "Week2.EsercitazioneComplex",
+      "projectPath": "C:\\Users\\AntoniaSacchitella\\source\\repos\\Week2.Demo\\Week2.EsercitazioneComplex\\Week2.EsercitazioneComplex.csproj",
+      "packagesPath": "C:\\Users\\AntoniaSacchitella\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AntoniaSacchitella\\source\\repos\\Week2.Demo\\Week2.EsercitazioneComplex\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\AntoniaSacchitella\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\AntoniaSacchitella\\source\\repos\\Week2.Demo\\Week2.ComplexNumber\\Week2.ComplexNumber.csproj": {
+              "projectPath": "C:\\Users\\AntoniaSacchitella\\source\\repos\\Week2.Demo\\Week2.ComplexNumber\\Week2.ComplexNumber.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

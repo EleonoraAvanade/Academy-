@@ -1,0 +1,16 @@
+C:\Users\AntoniaSacchitella\source\repos\Week2.Demo\Week2.Demo\bin\Debug\net5.0\Week2.Demo.exe
+C:\Users\AntoniaSacchitella\source\repos\Week2.Demo\Week2.Demo\bin\Debug\net5.0\Week2.Demo.deps.json
+C:\Users\AntoniaSacchitella\source\repos\Week2.Demo\Week2.Demo\bin\Debug\net5.0\Week2.Demo.runtimeconfig.json
+C:\Users\AntoniaSacchitella\source\repos\Week2.Demo\Week2.Demo\bin\Debug\net5.0\Week2.Demo.runtimeconfig.dev.json
+C:\Users\AntoniaSacchitella\source\repos\Week2.Demo\Week2.Demo\bin\Debug\net5.0\Week2.Demo.dll
+C:\Users\AntoniaSacchitella\source\repos\Week2.Demo\Week2.Demo\bin\Debug\net5.0\ref\Week2.Demo.dll
+C:\Users\AntoniaSacchitella\source\repos\Week2.Demo\Week2.Demo\bin\Debug\net5.0\Week2.Demo.pdb
+C:\Users\AntoniaSacchitella\source\repos\Week2.Demo\Week2.Demo\obj\Debug\net5.0\Week2.Demo.csproj.AssemblyReference.cache
+C:\Users\AntoniaSacchitella\source\repos\Week2.Demo\Week2.Demo\obj\Debug\net5.0\Week2.Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AntoniaSacchitella\source\repos\Week2.Demo\Week2.Demo\obj\Debug\net5.0\Week2.Demo.AssemblyInfoInputs.cache
+C:\Users\AntoniaSacchitella\source\repos\Week2.Demo\Week2.Demo\obj\Debug\net5.0\Week2.Demo.AssemblyInfo.cs
+C:\Users\AntoniaSacchitella\source\repos\Week2.Demo\Week2.Demo\obj\Debug\net5.0\Week2.Demo.csproj.CoreCompileInputs.cache
+C:\Users\AntoniaSacchitella\source\repos\Week2.Demo\Week2.Demo\obj\Debug\net5.0\Week2.Demo.dll
+C:\Users\AntoniaSacchitella\source\repos\Week2.Demo\Week2.Demo\obj\Debug\net5.0\ref\Week2.Demo.dll
+C:\Users\AntoniaSacchitella\source\repos\Week2.Demo\Week2.Demo\obj\Debug\net5.0\Week2.Demo.pdb
+C:\Users\AntoniaSacchitella\source\repos\Week2.Demo\Week2.Demo\obj\Debug\net5.0\Week2.Demo.genruntimeconfig.cache

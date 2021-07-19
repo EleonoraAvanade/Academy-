@@ -90,7 +90,7 @@ namespace Week1.EsercitazioneFinale.Test
 
             //Verifica
             Assert.Equal("Vitto", rimborsi[2].Spesa.Categoria.Nome);
-            Assert.Equal(979, 9999999999999, rimborsi[2].ImportoRimborsato);
+            Assert.Equal(979.9999999999999, rimborsi[2].ImportoRimborsato);
             Assert.True(rimborsi[2].Approvato);
             Assert.Equal("CEO", rimborsi[2].LivelloApprovazione);
         }
