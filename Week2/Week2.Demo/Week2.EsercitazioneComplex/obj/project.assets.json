@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AntoniaSacchitella\\source\\repos\\Week2.Demo\\Week2.EsercitazioneComplex\\Week2.EsercitazioneComplex.csproj",
+      "projectUniqueName": "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week2\\Week2.Demo\\Week2.EsercitazioneComplex\\Week2.EsercitazioneComplex.csproj",
       "projectName": "Week2.EsercitazioneComplex",
-      "projectPath": "C:\\Users\\AntoniaSacchitella\\source\\repos\\Week2.Demo\\Week2.EsercitazioneComplex\\Week2.EsercitazioneComplex.csproj",
+      "projectPath": "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week2\\Week2.Demo\\Week2.EsercitazioneComplex\\Week2.EsercitazioneComplex.csproj",
       "packagesPath": "C:\\Users\\AntoniaSacchitella\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AntoniaSacchitella\\source\\repos\\Week2.Demo\\Week2.EsercitazioneComplex\\obj\\",
+      "outputPath": "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week2\\Week2.Demo\\Week2.EsercitazioneComplex\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AntoniaSacchitella\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\AntoniaSacchitella\\source\\repos\\Week2.Demo\\Week2.ComplexNumber\\Week2.ComplexNumber.csproj": {
-              "projectPath": "C:\\Users\\AntoniaSacchitella\\source\\repos\\Week2.Demo\\Week2.ComplexNumber\\Week2.ComplexNumber.csproj"
+            "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week2\\Week2.Demo\\Week2.ComplexNumber\\Week2.ComplexNumber.csproj": {
+              "projectPath": "C:\\Users\\AntoniaSacchitella\\Desktop\\Academy\\Week2\\Week2.Demo\\Week2.ComplexNumber\\Week2.ComplexNumber.csproj"
             }
           }
         }
