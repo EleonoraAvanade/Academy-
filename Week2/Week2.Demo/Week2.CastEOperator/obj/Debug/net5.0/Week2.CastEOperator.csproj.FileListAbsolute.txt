@@ -1,0 +1,16 @@
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.CastEOperator\bin\Debug\net5.0\Week2.CastEOperator.exe
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.CastEOperator\bin\Debug\net5.0\Week2.CastEOperator.deps.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.CastEOperator\bin\Debug\net5.0\Week2.CastEOperator.runtimeconfig.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.CastEOperator\bin\Debug\net5.0\Week2.CastEOperator.runtimeconfig.dev.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.CastEOperator\bin\Debug\net5.0\Week2.CastEOperator.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.CastEOperator\bin\Debug\net5.0\ref\Week2.CastEOperator.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.CastEOperator\bin\Debug\net5.0\Week2.CastEOperator.pdb
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.CastEOperator\obj\Debug\net5.0\Week2.CastEOperator.csproj.AssemblyReference.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.CastEOperator\obj\Debug\net5.0\Week2.CastEOperator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.CastEOperator\obj\Debug\net5.0\Week2.CastEOperator.AssemblyInfoInputs.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.CastEOperator\obj\Debug\net5.0\Week2.CastEOperator.AssemblyInfo.cs
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.CastEOperator\obj\Debug\net5.0\Week2.CastEOperator.csproj.CoreCompileInputs.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.CastEOperator\obj\Debug\net5.0\Week2.CastEOperator.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.CastEOperator\obj\Debug\net5.0\ref\Week2.CastEOperator.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.CastEOperator\obj\Debug\net5.0\Week2.CastEOperator.pdb
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.CastEOperator\obj\Debug\net5.0\Week2.CastEOperator.genruntimeconfig.cache
