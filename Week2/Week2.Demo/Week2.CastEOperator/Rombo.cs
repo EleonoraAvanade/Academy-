@@ -42,5 +42,7 @@ namespace Week2.CastEOperator
             double dm = dM;
             return new Rombo(lato, dM, dm);
         }
+
+        
     }
 }

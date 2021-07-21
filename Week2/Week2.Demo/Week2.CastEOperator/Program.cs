@@ -30,19 +30,29 @@ namespace Week2.CastEOperator
             IShape figuraGeometrica = new Rettangolo(3, 4);
             IShape figuraQuadrato = new Quadrato(4);
             IShape figuraRombo = new Rombo(4, 5, 5);
+            //Rombo figuraRombo = new Rombo(4, 5, 5);
             //CONVERSIONE 
             try
             {
                 figuraGeometrica = (Rettangolo)figuraQuadrato;
-                figuraGeometrica = (Rettangolo)figuraRombo;
+                //figuraGeometrica = (Rettangolo)figuraRombo;
+                if(figuraRombo is Rombo)
+                {
+                    Rombo romboConvertito2 = (Rombo)figuraRombo;
+                    if(romboConvertito2.DiagonaleMaggiore == romboConvertito2.DiagonaleMinore)
+                    {
+                        figuraGeometrica = new Rettangolo(romboConvertito2.Lato, romboConvertito2.Lato);
+                    }
+                }
             }catch(InvalidCastException ex)
             {
                 Console.WriteLine(ex.Message);
             }
-
+            Rombo altroRombo = new Rombo(3, 3, 3);
             //ALTRO METODO DI CAST SICURO
-            var rettangolo = figuraRombo as Rettangolo;
-            if(rettangolo == null)
+            //var rettangolo = altroRombo as Rettangolo;
+            Rettangolo rettangolo = (Rettangolo)altroRombo;
+            if ((rettangolo as Rettangolo) == null)
             {
                 Console.WriteLine("Cast non valido");
             }

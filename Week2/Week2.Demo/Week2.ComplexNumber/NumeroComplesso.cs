@@ -48,6 +48,11 @@ namespace Week2.ComplexNumber
             };
         }
 
+        public static NumeroComplesso operator +(NumeroComplesso a, NumeroComplesso b)
+        {
+            return a.Somma(b);
+        }
+
         public NumeroComplesso Differenza(NumeroComplesso value)
         {
             double parteReale = value.Reale > 0 ? this.Reale - value.Reale : this.Reale + value.Reale;
