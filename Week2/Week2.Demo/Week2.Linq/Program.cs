@@ -72,9 +72,9 @@ namespace Week2.Linq
         {
             var soloVotiItaliano = voti
                 .Where(voti => voti.Materia == Materia.Italiano)
-                .Select(voto => new { Studente = voto.NomeStudente, Voto = voto.Voto}); 
+                .Select(voto => new { Studente = voto.NomeStudente, Voto = voto.Voto });
 
-            foreach(var v in soloVotiItaliano)
+            foreach (var v in soloVotiItaliano)
             {
                 Console.WriteLine(v.Studente + " - " + v.Voto);
             }
@@ -91,11 +91,11 @@ namespace Week2.Linq
             //dipendente = manager; ERRORE! A Manager manca la Materia
 
             var val = voti.GetValutazioniStudentiA();
-            foreach(var item in val)
+            foreach (var item in val)
             {
                 Console.WriteLine(item);
             }
-            
+
             if (val.AnyValutazione(val.Count()))
             {
                 Console.WriteLine("Lista vuota");
@@ -104,6 +104,77 @@ namespace Week2.Linq
             {
                 Console.WriteLine("La lista contiene dei valori");
             }
+
+            EsercitazioneLinq();
+        }
+
+        private static void EsercitazioneLinq()
+        {
+            //elenco studenti con materia la cui media è insufficiente
+            var studentiMediaInsufficiente = voti
+                .GroupBy(
+                    v => new { v.NomeStudente, v.Materia },
+                    (key, grp) => new
+                    {
+                        Studente = key.NomeStudente,
+                        Materia = key.Materia,
+                        Media = grp.Average(v => v.Voto)
+                    }
+             ).Where(m => m.Media < 6.0);
+
+            var studentiMediaInsufficienteQE =
+                from v in voti
+                group v by new { v.NomeStudente, v.Materia } into grp
+                where grp.Average(v => v.Voto) < 6.0
+                select new
+                {
+                    Studente = grp.Key.NomeStudente,
+                    Materia = grp.Key.Materia,
+                    Media = grp.Average(v => v.Voto)
+                };
+
+            //voto medio, minimo e massimo per materia
+            var mediaMaxMinVoti = voti
+                .GroupBy(
+                    v => v.Materia,
+                    (key, grp) => new
+                    {
+                        Materia = key,
+                        Media = grp.Average(v => v.Voto),
+                        Massimo = grp.Max(v => v.Voto),
+                        Minimo = grp.Min(v => v.Voto)
+                    });
+
+            var mediaMaxMinVotiQE =
+                from v in voti
+                group v by v.Materia into grp
+                select new
+                {
+                    Materia = grp.Key,
+                    Media = grp.Average(v => v.Voto),
+                    Massimo = grp.Max(v => v.Voto),
+                    Minimo = grp.Min(v => v.Voto)
+                };
+
+            //numero voti per mese
+            var nVotiMese = voti
+                .GroupBy(
+                    v => v.DataValutazione.Month,
+                    (key, grp) => new
+                    {
+                        Mese = key,
+                        NumeroVoti = grp.Count()
+                    });
+
+            var nVotiMeseQE =
+                from v in voti
+                group v by v.DataValutazione.Month into grp
+                select new
+                {
+                    Mese = grp.Key,
+                    NumeroVoti = grp.Count()
+                };
+
         }
     }
 }
