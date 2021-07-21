@@ -1,0 +1,16 @@
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.Linq\bin\Debug\net5.0\Week2.Linq.exe
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.Linq\bin\Debug\net5.0\Week2.Linq.deps.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.Linq\bin\Debug\net5.0\Week2.Linq.runtimeconfig.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.Linq\bin\Debug\net5.0\Week2.Linq.runtimeconfig.dev.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.Linq\bin\Debug\net5.0\Week2.Linq.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.Linq\bin\Debug\net5.0\ref\Week2.Linq.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.Linq\bin\Debug\net5.0\Week2.Linq.pdb
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.Linq\obj\Debug\net5.0\Week2.Linq.csproj.AssemblyReference.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.Linq\obj\Debug\net5.0\Week2.Linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.Linq\obj\Debug\net5.0\Week2.Linq.AssemblyInfoInputs.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.Linq\obj\Debug\net5.0\Week2.Linq.AssemblyInfo.cs
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.Linq\obj\Debug\net5.0\Week2.Linq.csproj.CoreCompileInputs.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.Linq\obj\Debug\net5.0\Week2.Linq.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.Linq\obj\Debug\net5.0\ref\Week2.Linq.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.Linq\obj\Debug\net5.0\Week2.Linq.pdb
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.Linq\obj\Debug\net5.0\Week2.Linq.genruntimeconfig.cache
