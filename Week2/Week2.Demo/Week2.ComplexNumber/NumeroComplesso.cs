@@ -76,9 +76,14 @@ namespace Week2.ComplexNumber
         public NumeroComplesso Divisione(NumeroComplesso value)
         {
             double denom = Math.Pow(value.Reale, 2) + Math.Pow(value.Immaginaria, 2);
-            if (denom != 0)
+            if (denom == 0)
             {
-                throw new DivideByZeroException();
+                //throw new DivideByZeroException();
+                throw new NumeroComplessoException("Spiacente, la tua operazione non va a buon fine")
+                {
+                    PrimoOperatore = this,
+                    SecondoOperatore = value
+                };
             }
             double realeRisul = (this.Reale * value.Reale + this.Immaginaria * value.Immaginaria) / denom;
             double immRisul = (this.Immaginaria * value.Reale - this.Reale * value.Immaginaria) / denom;

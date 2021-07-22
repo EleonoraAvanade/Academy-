@@ -44,7 +44,15 @@ namespace Week2.EsercitazioneComplex
                     risultato = nc.Moltiplicazione(nc2);
                     break;
                 case '/':
-                    risultato = nc.Divisione(nc2);
+                    try
+                    {
+                        risultato = nc.Divisione(nc2);
+                    }catch(NumeroComplessoException ex)
+                    {
+                        //Console.WriteLine(ex.Message);
+                        throw ex;
+                    }
+                    
                     break;
             }
             Console.WriteLine("Risultato: {0}", risultato.ToString(Format.Parentesi));

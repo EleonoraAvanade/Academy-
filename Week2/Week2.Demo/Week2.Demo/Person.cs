@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Week2.Demo
 {
-    public class Person
+    public class Person : IComparable
     {
         private string _firstName;
 
@@ -169,6 +169,11 @@ namespace Week2.Demo
                 };
                 return true;
             }
+        }
+
+        public int CompareTo(object obj)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion

@@ -57,6 +57,47 @@ namespace Week2.CastEOperator
                 Console.WriteLine("Cast non valido");
             }
 
+            #region NULLABLE
+
+            Frazione f = null;
+
+            int num = f?.Numeratore ?? 0;
+            //equivalente a
+            if(f != null)
+            {
+                num = f.Numeratore;
+            }
+            else
+            {
+                num = 0;
+            }
+            //equivalente
+            num = (f != null) ? f.Numeratore : 0;
+
+            Sample s = null;
+            Sample s1 = new Sample { StringSample = null };
+            Sample s2 = new Sample { StringSample = "prova" };
+
+            var stringUp = s1?.StringSample?.ToUpper() ?? "STRINGA MAIUSCOLA";
+
+            if(s2 != null)
+            {
+                if(s2.StringSample != null)
+                {
+                    stringUp = s2.StringSample.ToUpper();
+                }
+                else
+                {
+                    s2.StringSample = "STRINGA MAIUSCOLA";
+                }
+            }
+            else
+            {
+                stringUp = "STRINGA MAIUSCOLA";
+            }
+
+            #endregion
+
         }
     }
 }

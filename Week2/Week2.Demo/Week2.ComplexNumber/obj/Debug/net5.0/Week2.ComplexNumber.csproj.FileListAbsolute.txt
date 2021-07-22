@@ -1,0 +1,12 @@
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.ComplexNumber\bin\Debug\net5.0\Week2.ComplexNumber.deps.json
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.ComplexNumber\bin\Debug\net5.0\Week2.ComplexNumber.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.ComplexNumber\bin\Debug\net5.0\ref\Week2.ComplexNumber.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.ComplexNumber\bin\Debug\net5.0\Week2.ComplexNumber.pdb
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.ComplexNumber\obj\Debug\net5.0\Week2.ComplexNumber.csproj.AssemblyReference.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.ComplexNumber\obj\Debug\net5.0\Week2.ComplexNumber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.ComplexNumber\obj\Debug\net5.0\Week2.ComplexNumber.AssemblyInfoInputs.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.ComplexNumber\obj\Debug\net5.0\Week2.ComplexNumber.AssemblyInfo.cs
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.ComplexNumber\obj\Debug\net5.0\Week2.ComplexNumber.csproj.CoreCompileInputs.cache
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.ComplexNumber\obj\Debug\net5.0\Week2.ComplexNumber.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.ComplexNumber\obj\Debug\net5.0\ref\Week2.ComplexNumber.dll
+C:\Users\AntoniaSacchitella\Desktop\Academy\Week2\Week2.Demo\Week2.ComplexNumber\obj\Debug\net5.0\Week2.ComplexNumber.pdb

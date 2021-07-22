@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2.Demo2", "Week2.Demo2\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2.CastEOperator", "Week2.CastEOperator\Week2.CastEOperator.csproj", "{F8E5BA12-D2F7-49A2-B900-B63CAAE2CAB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2.Linq", "Week2.Linq\Week2.Linq.csproj", "{2ADA1636-B91F-4B44-A809-85B69196CAF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2.Linq", "Week2.Linq\Week2.Linq.csproj", "{2ADA1636-B91F-4B44-A809-85B69196CAF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2.SimCard", "Week2.SimCard\Week2.SimCard.csproj", "{38CF3253-933F-4994-8E97-D6F6FBD65A1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{2ADA1636-B91F-4B44-A809-85B69196CAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2ADA1636-B91F-4B44-A809-85B69196CAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2ADA1636-B91F-4B44-A809-85B69196CAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38CF3253-933F-4994-8E97-D6F6FBD65A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38CF3253-933F-4994-8E97-D6F6FBD65A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38CF3253-933F-4994-8E97-D6F6FBD65A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38CF3253-933F-4994-8E97-D6F6FBD65A1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

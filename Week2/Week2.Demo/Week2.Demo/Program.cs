@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Week2.Demo
 {
@@ -81,6 +82,13 @@ namespace Week2.Demo
             }
             bool success = int.TryParse("1", out int numConvertito);
 
+            MySortedList<int> msi = new MySortedList<int>();
+            MySortedList<Person> msp = new MySortedList<Person>();
+            var people = new List<Person>();
+            MySortedList<Person>.Max<Person>(people);
+            //MySortedList<PersonRequest> mspr = new MySortedList<PersonRequest>();
+            msi.Add(1);
+            msp.Add(p);
             Console.Read();
         }
     }
