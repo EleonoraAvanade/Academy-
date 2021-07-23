@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Week2.EsercitazioneFinale.Client/1.0.0": {
+        "dependencies": {
+          "Week2.EsercitazioneFinale.Lib": "1.0.0"
+        },
+        "runtime": {
+          "Week2.EsercitazioneFinale.Client.dll": {}
+        }
+      },
+      "Week2.EsercitazioneFinale.Lib/1.0.0": {
+        "runtime": {
+          "Week2.EsercitazioneFinale.Lib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Week2.EsercitazioneFinale.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Week2.EsercitazioneFinale.Lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

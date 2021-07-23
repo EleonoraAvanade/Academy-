@@ -15,9 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2.CastEOperator", "Week
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2.Linq", "Week2.Linq\Week2.Linq.csproj", "{2ADA1636-B91F-4B44-A809-85B69196CAF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2.SimCard", "Week2.SimCard\Week2.SimCard.csproj", "{38CF3253-933F-4994-8E97-D6F6FBD65A1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2.SimCard", "Week2.SimCard\Week2.SimCard.csproj", "{38CF3253-933F-4994-8E97-D6F6FBD65A1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2.Loaners", "Week2.Loaners\Week2.Loaners.csproj", "{49517FDE-8FF2-44E0-9C21-92BE85652AC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2.Loaners", "Week2.Loaners\Week2.Loaners.csproj", "{49517FDE-8FF2-44E0-9C21-92BE85652AC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EsercitazioneFinale", "EsercitazioneFinale", "{1A9BBF50-4D0E-4843-ADFA-63D990D53FA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2.EsercitazioneFinale.Lib", "Week2.EsercitazioneFinale.Lib\Week2.EsercitazioneFinale.Lib.csproj", "{C76F5351-A618-4BA3-AB5A-52F0E304C49E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2.EsercitazioneFinale.Client", "Week2.EsercitazioneFinale.Client\Week2.EsercitazioneFinale.Client.csproj", "{2DA0639B-E710-47C7-A7E2-E644B8AF3066}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,9 +63,21 @@ Global
 		{49517FDE-8FF2-44E0-9C21-92BE85652AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49517FDE-8FF2-44E0-9C21-92BE85652AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49517FDE-8FF2-44E0-9C21-92BE85652AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C76F5351-A618-4BA3-AB5A-52F0E304C49E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C76F5351-A618-4BA3-AB5A-52F0E304C49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C76F5351-A618-4BA3-AB5A-52F0E304C49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C76F5351-A618-4BA3-AB5A-52F0E304C49E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DA0639B-E710-47C7-A7E2-E644B8AF3066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA0639B-E710-47C7-A7E2-E644B8AF3066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA0639B-E710-47C7-A7E2-E644B8AF3066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA0639B-E710-47C7-A7E2-E644B8AF3066}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C76F5351-A618-4BA3-AB5A-52F0E304C49E} = {1A9BBF50-4D0E-4843-ADFA-63D990D53FA9}
+		{2DA0639B-E710-47C7-A7E2-E644B8AF3066} = {1A9BBF50-4D0E-4843-ADFA-63D990D53FA9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {183AF650-2F96-4A9D-B54C-2D055F0E6AD7}
