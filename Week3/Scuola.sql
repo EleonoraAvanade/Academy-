@@ -1,4 +1,4 @@
--- CREATE DATABASE Scuola
+--CREATE DATABASE Scuola
 
 CREATE TABLE Aula(
 	[ID_AULA] [int] IDENTITY(1, 1) NOT NULL, --PRIMARY KEY,
@@ -13,11 +13,11 @@ CREATE TABLE Aula(
 );
 
 --vincolo unicità su tabella già esistente
-CREATE UNIQUE INDEX [UQ_Aula] ON [Aula](
-	[Corpo],
-	[Piano],
-	[Numero]
-)
+--CREATE UNIQUE INDEX [UQ_Aula] ON [Aula](
+--	[Corpo],
+--	[Piano],
+--	[Numero]
+--)
 
 CREATE TABLE Classe(
 	[ID_Classe] [INT] IDENTITY(1,1) NOT NULL,
@@ -43,16 +43,16 @@ CREATE TABLE Studente(
 	[ID_Studente] [int] IDENTITY(1,1) NOT NULL,
 	[Nome] [VARCHAR](50) NOT NULL,
 	[Cognome] [VARCHAR](50) NOT NULL,
-	[ID_ANNO] [CHAR](1) NOT NULL,
-	[ID_SEZIONE] [CHAR](1) NOT NULL,
-	[ID_INDIRIZZO] [VARCHAR](20) NOT NULL,
+	[ANNO] [CHAR](1) NOT NULL,
+	[SEZIONE] [CHAR](1) NOT NULL,
+	[INDIRIZZO] [VARCHAR](20) NOT NULL,
 	CONSTRAINT [PK_Studente] PRIMARY KEY CLUSTERED(
 		[ID_Studente]
 	), 
 	CONSTRAINT [FK_Studente_Classe] FOREIGN KEY(
-		[ID_ANNO],
-		[ID_SEZIONE],
-		[ID_INDIRIZZO]
+		[ANNO],
+		[SEZIONE],
+		[INDIRIZZO]
 	) REFERENCES [Classe]([Anno], [Sezione], [Indirizzo])
 );
 
@@ -119,10 +119,152 @@ ALTER TABLE Verifica
 DROP COLUMN [Voto]
 
 
+CREATE VIEW [DettagliClasseAulaStudenti] AS (
+	SELECT s.Nome, s.Cognome, c.Anno, c.Sezione, c.Indirizzo, 
+	a.Numero, a.Piano, a.Corpo
+	FROM Studente as s
+	JOIN Classe as c
+	ON s.Anno = c.Anno AND s.Sezione = c.Sezione
+	AND s.Indirizzo = c.Indirizzo
+	JOIN Aula as a
+	ON c.ID_AULA = a.ID_AULA
+);
+
+SELECT * 
+FROM DettagliClasseAulaStudenti
+
+-- VIEW DI SISTEMA
+--select object_id, name
+--FROM sys.all_columns
+--where object_id = 3
 
 
+-- STORED PROCEDURE
+CREATE PROCEDURE [InserimentoAula] @Corpo nchar(1), @piano nchar(1), @numero nchar(2),
+@mq numeric null
+as
+BEGIN 
+INSERT INTO Aula (Corpo, Piano, Numero, MQ) VALUES (@Corpo, @Piano, @Numero, @mq)
+END
+
+EXECUTE [InserimentoAula] @corpo = 'a', @piano = '1', @numero = '1', @mq = null
+
+CREATE PROCEDURE [InserimentoClasse]
+@Sezione char(1),
+@Indirizzo varchar(20),
+@Anno char(1),
+@Aula int
+AS
+BEGIN
+INSERT INTO Classe (Anno, Sezione, Indirizzo, ID_AULA) 
+VALUES (@Anno, @Sezione, @Indirizzo, @Aula)
+END
+
+EXECUTE [InserimentoClasse]
+ @sezione = 'C', @Indirizzo = 'Chimica', @Anno = '1', @Aula = 1
 
 
+CREATE PROCEDURE [InserimentoStudente] 
+@ID_CLASSE INT,
+@Nome varchar(50),
+@Cognome varchar(50)
+AS
+BEGIN
+-- ricerco la classe sulla base dell'id
+-- DICHIARO LE VARIABILI CHE MI SERVONO (ANNO, SEZIONE E INDIRIZZO)
+DECLARE @anno char(1)
+DECLARE @sezione char(1)
+DECLARE @indirizzo varchar(20)
+SELECT @anno = c.Anno, @sezione = c.Sezione, @indirizzo = c.Indirizzo
+FROM Classe as c
+WHERE c.ID_Classe = @ID_CLASSE
+INSERT INTO Studente (Nome, Cognome, Anno, Sezione, Indirizzo)
+VALUES (@Nome, @Cognome, @Anno, @Sezione, @Indirizzo)
+END
 
+EXEC [InserimentoStudente] @ID_CLASSE = 1, @Nome = 'Mario', @Cognome = 'Rossi'
 
+SELECT * FROM STUDENTE
+SELECT * FROM DettagliClasseAulaStudenti
 
+CREATE PROCEDURE [InserisciDisciplina] 
+@Materia varchar(20),
+@Docente varchar(50)
+AS
+BEGIN 
+INSERT INTO Disciplina(Nome, Docente) VALUES (@Materia, @Docente)
+END
+
+EXEC [InserisciDisciplina] @materia = 'Italiano', @docente = 'Luca Bianchi'
+
+CREATE PROCEDURE [InserisciVerifica]
+@data date,
+@nomeStudente varchar(50),
+@cognomeStudente varchar(50),
+@docente varchar(50),
+@voto int
+AS 
+BEGIN
+DECLARE @ID_STUDENTE INT
+DECLARE @ID_MATERIA INT
+SELECT @ID_STUDENTE = s.ID_Studente
+FROM STUDENTE as S
+WHERE S.Nome = @nomeStudente AND S.Cognome = @cognomeStudente
+SELECT @ID_MATERIA = D.ID_DISCIPLINA
+FROM DISCIPLINA AS D
+WHERE D.Docente LIKE @docente
+INSERT INTO Verifica VALUES (@data, @ID_MATERIA, @ID_STUDENTE, @voto)
+END
+
+EXECUTE InserisciVerifica @data = '28/07/2021', @nomeStudente = 'Mario',
+@cognomeStudente = 'Rossi', @docente = 'Luca Bianchi', @voto = 8
+
+SELECT * FROM Verifica
+
+CREATE PROCEDURE [ModificaVerificheItaliano]
+@votoDaModificare int,
+@DOCENTE varchar(50)
+AS
+BEGIN 
+DECLARE @ID_DISCIPLINA int
+SELECT @ID_DISCIPLINA = ID_DISCIPLINA
+FROM Disciplina
+WHERE Docente = @DOCENTE and Nome = 'Italiano'
+UPDATE VERIFICA set VOTO = @votoDaModificare 
+END
+
+EXEC ModificaVerificheItaliano @votoDaModificare = 6, @docente = 'Luca Bianchi'
+
+-- FUNZIONI
+CREATE FUNCTION Elenco_Studenti_Raggruppati(
+	@anno char(1) = '0'
+)
+RETURNS TABLE
+AS
+RETURN 
+SELECT C.sezione, c.Indirizzo, Count(*) as Num
+FROM Studente as S
+JOIN Classe as C
+ON S.Anno = C.Anno and S.Indirizzo = C.Indirizzo and
+S.Sezione = C.Sezione
+WHERE s.Anno = @anno
+GROUP BY C.Sezione, C.Indirizzo
+
+SELECT *
+FROM dbo.Elenco_Studenti_Raggruppati('1')
+
+CREATE FUNCTION Numero_Studenti_Sezione(@sezione char(1))
+RETURNS INT
+AS
+BEGIN
+DECLARE @result int
+SELECT @result = count(*)
+FROM Studente as S
+JOIN Classe as C
+ON S.anno = c.anno and s.Sezione = c.Sezione and s.Indirizzo = c.Indirizzo
+WHERE C.SEZIONE = @SEZIONE
+RETURN @result
+END
+
+declare @a
+select dbo.Numero_Studenti_Sezione('c') as value
