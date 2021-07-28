@@ -96,3 +96,33 @@ CHECK ([Sezione] IN ('A', 'B', 'C', 'D', 'E', 'F'))
 ALTER TABLE [Classe]
 WITH CHECK ADD CONSTRAINT [Anno]
 CHECK ([Anno] IN ('1', '2', '3', '4', '5'))
+
+
+CREATE INDEX Studenti_NDX
+ON Studente (Cognome ASC, Nome ASC);
+
+CREATE UNIQUE INDEX Verifiche_NDX
+ON Verifica (ID_STUDENTE, ID_DISCIPLINA, Data);
+
+ALTER TABLE Verifica
+ADD Voto INT
+
+ALTER TABLE [Verifica]
+WITH CHECK ADD CONSTRAINT [VotiValidi]
+CHECK ([Voto] BETWEEN 0 AND 10)
+
+--cancello vincolo
+ALTER TABLE Verifica
+DROP Constraint VotiValidi
+
+ALTER TABLE Verifica
+DROP COLUMN [Voto]
+
+
+
+
+
+
+
+
+
