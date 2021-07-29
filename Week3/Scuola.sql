@@ -182,7 +182,7 @@ INSERT INTO Studente (Nome, Cognome, Anno, Sezione, Indirizzo)
 VALUES (@Nome, @Cognome, @Anno, @Sezione, @Indirizzo)
 END
 
-EXEC [InserimentoStudente] @ID_CLASSE = 1, @Nome = 'Franca', @Cognome = 'Rossini'
+EXEC [InserimentoStudente] @ID_CLASSE = 1, @Nome = 'Mario', @Cognome = 'Rossi'
 
 SELECT * FROM STUDENTE
 SELECT * FROM DettagliClasseAulaStudenti
@@ -286,3 +286,76 @@ SELECT * from dbo.GetClassiNumerose('b', 1)
 SELECT * FROM VERIFICA
 
 
+CREATE PROCEDURE [InserisciVerificaConControllo]
+@data date,
+@nomeStudente varchar(50),
+@cognomeStudente varchar(50),
+@docente varchar(50),
+@voto int
+AS
+BEGIN
+	begin try
+	-- OPERAZIONI CHE PROVOCANO LE ECCEZIONI
+	DECLARE @ID_STUDENTE INT
+	DECLARE @ID_MATERIA INT
+	SELECT @ID_STUDENTE = s.ID_STUDENTE
+	FROM STUDENTE s
+	WHERE s.Nome = @nomeStudente AND s.Cognome = @cognomeStudente
+	SELECT @ID_MATERIA = d.ID_DISCIPLINA
+	from Disciplina d
+	where d.Docente = @docente
+	INSERT INTO Verifica values (@data, @id_materia, @id_studente, @voto)
+	end try
+	begin catch
+	-- STAMPA DELLE ECCEZIONI
+	SELECT ERROR_LINE(), ERROR_MESSAGE(), ERROR_SEVERITY()
+	end catch
+END
+
+EXEC [InserisciVerificaConControllo] @data='31/07/2021', @nomeStudente='Mario',
+@cognomeStudente = 'Rossi', @docente='Luca Bianchi', @voto=8
+
+SELECT * FROM VERIFICA
+
+CREATE PROCEDURE DeleteStudente @nomeStudente varchar(50),
+@cognomeStudente varchar(50)
+AS
+BEGIN
+	BEGIN TRANSACTION
+	BEGIN TRY
+	 --operazioni di cancellazione
+	 -- recupero l'id dello studente
+	 DECLARE @IDStudente int
+	 SELECT @IDSTudente = s.ID_Studente
+	 FROM Studente s
+	 WHERE s.Nome = @nomeStudente and s.Cognome = @cognomeStudente
+	 --cancello le verifiche di quello studente
+
+	 DELETE FROM Verifica WHERE ID_STUDENTE = @IDStudente
+	 
+	 DELETE FROM Studente WHERE ID_Studente = @IDStudente
+	 IF @@ERROR > 0
+		ROLLBACK TRANSACTION
+
+	COMMIT TRANSACTION
+	END TRY
+	BEGIN CATCH
+		SELECT ERROR_LINE(), ERROR_MESSAGE()
+		ROLLBACK TRANSACTION 
+	END CATCH
+END
+
+EXEC DeleteStudente @nomeStudente = 'Mario', @cognomeStudente = 'Rossi'
+
+SELECT * FROM Studente
+
+CREATE TRIGGER InserimentoConSuccesso
+ON Studente AFTER INSERT
+AS
+PRINT 'Studente aggiunto con successo'
+
+CREATE TRIGGER ControlloSuVerifica
+ON Verifica AFTER INSERT
+AS
+IF EXISTS(SELECT * FROM VERIFICA WHERE Data > SYSDATETIME())
+ROLLBACK
