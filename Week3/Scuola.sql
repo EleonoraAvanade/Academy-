@@ -182,7 +182,7 @@ INSERT INTO Studente (Nome, Cognome, Anno, Sezione, Indirizzo)
 VALUES (@Nome, @Cognome, @Anno, @Sezione, @Indirizzo)
 END
 
-EXEC [InserimentoStudente] @ID_CLASSE = 1, @Nome = 'Mario', @Cognome = 'Rossi'
+EXEC [InserimentoStudente] @ID_CLASSE = 1, @Nome = 'Franca', @Cognome = 'Rossini'
 
 SELECT * FROM STUDENTE
 SELECT * FROM DettagliClasseAulaStudenti
@@ -251,7 +251,7 @@ WHERE s.Anno = @anno
 GROUP BY C.Sezione, C.Indirizzo
 
 SELECT *
-FROM dbo.Elenco_Studenti_Raggruppati('1')
+FROM dbo.Elenco_Studenti_Raggruppati(null)
 
 CREATE FUNCTION Numero_Studenti_Sezione(@sezione char(1))
 RETURNS INT
@@ -266,5 +266,23 @@ WHERE C.SEZIONE = @SEZIONE
 RETURN @result
 END
 
-declare @a
+
 select dbo.Numero_Studenti_Sezione('c') as value
+
+
+CREATE FUNCTION [GetClassiNumerose](@sezione char(1), @numeroStudenti int)
+RETURNS TABLE
+as 
+return(
+SELECT c.Anno, c.sezione, c.Indirizzo, a.Piano, a.Corpo
+FROM CLASSE C
+join aula a
+on c.ID_AULA = a.ID_AULA
+WHERE Sezione = @sezione AND dbo.Numero_Studenti_Sezione(@sezione) > @numeroStudenti)
+
+SELECT * from dbo.GetClassiNumerose('b', 1) 
+
+
+SELECT * FROM VERIFICA
+
+
